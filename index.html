@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Victoria Abero | Digital Credential</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --primary:#0b84a5;
+    --dark:#1e293b;
+    --muted:#64748b;
+    --bg:#f8fafc;
+    --card:#ffffff;
+    --border:#e2e8f0;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:var(--bg);
+    color:var(--dark);
+}
+
+.topbar{
+    background:#fff;
+    border-bottom:1px solid var(--border);
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.nav{
+    max-width:1400px;
+    margin:auto;
+    padding:18px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    height:45px;
+}
+
+.badge{
+    background:#ecfdf5;
+    color:#15803d;
+    padding:10px 18px;
+    border-radius:999px;
+    font-size:14px;
+    font-weight:700;
+}
+
+.hero{
+    max-width:1400px;
+    margin:auto;
+    padding:60px 30px;
+}
+
+.hero-card{
+    background:white;
+    border-radius:24px;
+    padding:50px;
+    box-shadow:
+        0 10px 40px rgba(15,23,42,.08);
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 550px;
+    gap:50px;
+    align-items:start;
+}
+
+.status{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    background:#ecfdf5;
+    color:#15803d;
+    padding:10px 18px;
+    border-radius:999px;
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+h1{
+    font-size:54px;
+    line-height:1.05;
+    margin-bottom:12px;
+}
+
+.program{
+    font-size:28px;
+    color:var(--primary);
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.school{
+    color:var(--muted);
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.description{
+    line-height:1.8;
+    color:#475569;
+}
+
+.stats{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+}
+
+.stat{
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:22px;
+}
+
+.stat-label{
+    color:var(--muted);
+    font-size:13px;
+    margin-bottom:8px;
+}
+
+.stat-value{
+    font-weight:700;
+}
+
+.actions{
+    margin-top:35px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    text-decoration:none;
+    padding:15px 22px;
+    border-radius:12px;
+    font-weight:700;
+}
+
+.btn-primary{
+    background:var(--primary);
+    color:white;
+}
+
+.btn-secondary{
+    border:1px solid var(--border);
+    color:var(--dark);
+}
+
+.diploma-card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    border:1px solid var(--border);
+}
+
+.diploma-header{
+    padding:20px;
+    border-bottom:1px solid var(--border);
+    font-weight:700;
+}
+
+.diploma-image{
+    width:100%;
+    display:block;
+}
+
+.footer{
+    text-align:center;
+    color:var(--muted);
+    padding:50px 20px;
+}
+
+@media(max-width:1100px){
+
+.grid{
+    grid-template-columns:1fr;
+}
+
+h1{
+    font-size:42px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header class="topbar">
+    <div class="nav">
+
+        <img src="https://uploads.onecompiler.io/44rnn533g/1780894078895/chatttech.png"
+             alt="Parchment Logo"
+             class="logo">
+
+        <div class="badge">
+            ✓ Official Credential
+        </div>
+
+    </div>
+</header>
+
+<section class="hero">
+
+<div class="hero-card">
+
+<div class="grid">
+
+<div>
+
+<div class="status">
+✓ Verified Academic Achievement
+</div>
+
+<h1>Victoria Abero</h1>
+
+<div class="program">
+Associate of Computer Programming
+</div>
+
+<div class="school">
+Chattahoochee Technical College
+</div>
+
+<p class="description">
+This verified digital credential recognizes the successful completion
+of the Associate of Computer Programming degree program. The credential
+is presented in a secure digital format for sharing with employers,
+educational institutions, and professional networks.
+</p>
+
+<div class="stats">
+
+<div class="stat">
+<div class="stat-label">Institution</div>
+<div class="stat-value">Chattahoochee Technical College</div>
+</div>
+
+<div class="stat">
+<div class="stat-label">Award Date</div>
+<div class="stat-value">May 13, 2026</div>
+</div>
+
+<div class="stat">
+<div class="stat-label">Program</div>
+<div class="stat-value">Computer Programming</div>
+</div>
+
+<div class="stat">
+<div class="stat-label">Credential Type</div>
+<div class="stat-value">Associate Degree</div>
+</div>
+
+</div>
+
+<div class="actions">
+<a href="#" class="btn btn-primary">Share Credential</a>
+<a href="#" class="btn btn-secondary">Download Diploma</a>
+</div>
+
+</div>
+
+<div class="diploma-card">
+
+<div class="diploma-header">
+Digital Diploma
+</div>
+
+<img
+    src="https://uploads.onecompiler.io/44rnn533g/1780893985518/degree.jpg.jpeg"
+    alt="Degree"
+    class="diploma-image">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+Powered by Digital Credentials • Secure Academic Record
+</footer>
+
+</body>
+</html>
